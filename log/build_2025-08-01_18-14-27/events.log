@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.001087] (cooperative_localization) JobQueued: {'identifier': 'cooperative_localization', 'dependencies': OrderedDict()}
+[0.001992] (cooperative_localization) JobStarted: {'identifier': 'cooperative_localization'}
+[0.022517] (cooperative_localization) JobProgress: {'identifier': 'cooperative_localization', 'progress': 'cmake'}
+[0.024095] (cooperative_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization', '-DCMAKE_INSTALL_PREFIX=/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization'], 'cwd': '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'lorenzo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lorenzo', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lorenzo/robotica_ws/src/lorenzo.nobili', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/home/lorenzo/robotica_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lorenzo/robotica_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lorenzo', 'NAME': 'DESKTOP-PT7M2OM', 'WSL_INTEROP': '/run/WSL/129446_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lorenzo/miniconda3/bin:/home/lorenzo/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/gurobi1100/win64/bin:/mnt/c/gurobi1003/win64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Calibre2:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/toolbox/10.1/tools/platform/win64x86/bin:/mnt/c/Program Files/Mosek/10.1/tools/platform/win64x86/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Meld:/mnt/c/Program Files/CMake/bin:/mnt/c/opencv/build/x64/vc16/lib:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Wolfram Research/WolframScript:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/Users/lorenzo/AppData/Local/Programs/Trae/bin:/mnt/c/Users/lorenzo/miniconda3:/mnt/c/Users/lorenzo/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/lorenzo/miniconda3/Library/usr/bin:/mnt/c/Users/lorenzo/miniconda3/Library/bin:/mnt/c/Users/lorenzo/miniconda3/Scripts:/mnt/c/Users/lorenzo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lorenzo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lorenzo/AppData/Roaming/npm:/mnt/c/ghcup/bin:/mnt/c/Users/lorenzo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lorenzo/AppData/Roaming/Programs/Zero Install:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/lorenzo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lorenzo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4/bin:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/Users/lorenzo/AppData/Local/GitHubDesktop/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/lorenzo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CONDA_DEFAULT_ENV': 'base', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', 'CONDA_EXE': '/home/lorenzo/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/lorenzo/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.062956] (cooperative_localization) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.098776] (-) TimerEvent: {}
+[0.199813] (-) TimerEvent: {}
+[0.301301] (-) TimerEvent: {}
+[0.402364] (-) TimerEvent: {}
+[0.503932] (-) TimerEvent: {}
+[0.505330] (cooperative_localization) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.605101] (-) TimerEvent: {}
+[0.706545] (-) TimerEvent: {}
+[0.807190] (-) TimerEvent: {}
+[0.907909] (-) TimerEvent: {}
+[0.966582] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.989663] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.008221] (-) TimerEvent: {}
+[1.016954] (cooperative_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.048172] (cooperative_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.108720] (-) TimerEvent: {}
+[1.194964] (cooperative_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.197980] (cooperative_localization) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.209131] (-) TimerEvent: {}
+[1.309856] (-) TimerEvent: {}
+[1.410639] (-) TimerEvent: {}
+[1.511417] (-) TimerEvent: {}
+[1.600300] (cooperative_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.611825] (-) TimerEvent: {}
+[1.713526] (-) TimerEvent: {}
+[1.740160] (cooperative_localization) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.813904] (-) TimerEvent: {}
+[1.896969] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.914123] (-) TimerEvent: {}
+[1.919541] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.952937] (cooperative_localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.014452] (-) TimerEvent: {}
+[2.115010] (-) TimerEvent: {}
+[2.215524] (-) TimerEvent: {}
+[2.316020] (-) TimerEvent: {}
+[2.332427] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.416333] (-) TimerEvent: {}
+[2.439979] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.441325] (cooperative_localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include;$<BUILD_INTERFACE:/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include>\n'}
+[2.441793] (cooperative_localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.500696] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.501161] (cooperative_localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.512299] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.512783] (cooperative_localization) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.516583] (-) TimerEvent: {}
+[2.530089] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.539630] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.597179] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.597687] (cooperative_localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.607816] (cooperative_localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.616878] (-) TimerEvent: {}
+[2.622927] (cooperative_localization) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.632274] (cooperative_localization) StderrLine: {'line': b'CMake Error at CMakeLists.txt:31 (add_executable):\n'}
+[2.632851] (cooperative_localization) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.633079] (cooperative_localization) StderrLine: {'line': b'\n'}
+[2.633280] (cooperative_localization) StderrLine: {'line': b'    src/coop_localization_node.cpp\n'}
+[2.633475] (cooperative_localization) StderrLine: {'line': b'\n'}
+[2.633669] (cooperative_localization) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.634009] (cooperative_localization) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.634407] (cooperative_localization) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.634544] (cooperative_localization) StderrLine: {'line': b'\n'}
+[2.634668] (cooperative_localization) StderrLine: {'line': b'\n'}
+[2.644833] (cooperative_localization) StderrLine: {'line': b'CMake Error at CMakeLists.txt:31 (add_executable):\n'}
+[2.645203] (cooperative_localization) StderrLine: {'line': b'  No SOURCES given to target: coop_localization_node\n'}
+[2.645341] (cooperative_localization) StderrLine: {'line': b'\n'}
+[2.645464] (cooperative_localization) StderrLine: {'line': b'\n'}
+[2.645587] (cooperative_localization) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[2.661523] (cooperative_localization) CommandEnded: {'returncode': 1}
+[2.717947] (-) TimerEvent: {}
+[2.733427] (cooperative_localization) JobEnded: {'identifier': 'cooperative_localization', 'rc': 1}
+[2.744614] (-) EventReactorShutdown: {}

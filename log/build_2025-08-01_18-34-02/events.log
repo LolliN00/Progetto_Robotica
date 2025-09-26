@@ -1,0 +1,823 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (cooperative_localization) JobQueued: {'identifier': 'cooperative_localization', 'dependencies': OrderedDict()}
+[0.004413] (cooperative_localization) JobStarted: {'identifier': 'cooperative_localization'}
+[0.046842] (cooperative_localization) JobProgress: {'identifier': 'cooperative_localization', 'progress': 'cmake'}
+[0.051294] (cooperative_localization) JobProgress: {'identifier': 'cooperative_localization', 'progress': 'build'}
+[0.053146] (cooperative_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', '--', '-j12', '-l12'], 'cwd': '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'lorenzo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lorenzo', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lorenzo/robotica_ws/src/lorenzo.nobili', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/home/lorenzo/robotica_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lorenzo/robotica_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lorenzo', 'NAME': 'DESKTOP-PT7M2OM', 'WSL_INTEROP': '/run/WSL/129446_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lorenzo/miniconda3/bin:/home/lorenzo/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/gurobi1100/win64/bin:/mnt/c/gurobi1003/win64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Calibre2:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/toolbox/10.1/tools/platform/win64x86/bin:/mnt/c/Program Files/Mosek/10.1/tools/platform/win64x86/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Meld:/mnt/c/Program Files/CMake/bin:/mnt/c/opencv/build/x64/vc16/lib:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Wolfram Research/WolframScript:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/Users/lorenzo/AppData/Local/Programs/Trae/bin:/mnt/c/Users/lorenzo/miniconda3:/mnt/c/Users/lorenzo/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/lorenzo/miniconda3/Library/usr/bin:/mnt/c/Users/lorenzo/miniconda3/Library/bin:/mnt/c/Users/lorenzo/miniconda3/Scripts:/mnt/c/Users/lorenzo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lorenzo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lorenzo/AppData/Roaming/npm:/mnt/c/ghcup/bin:/mnt/c/Users/lorenzo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lorenzo/AppData/Roaming/Programs/Zero Install:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/lorenzo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lorenzo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4/bin:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/Users/lorenzo/AppData/Local/GitHubDesktop/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/lorenzo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CONDA_DEFAULT_ENV': 'base', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', 'CONDA_EXE': '/home/lorenzo/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/lorenzo/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.098989] (-) TimerEvent: {}
+[0.199408] (-) TimerEvent: {}
+[0.299869] (-) TimerEvent: {}
+[0.400357] (-) TimerEvent: {}
+[0.500764] (-) TimerEvent: {}
+[0.538866] (cooperative_localization) StdoutLine: {'line': b"Change Dir: '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[0.543741] (cooperative_localization) StdoutLine: {'line': b'\n'}
+[0.544139] (cooperative_localization) StdoutLine: {'line': b'Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j12 -l12\n'}
+[0.597911] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/cmake -S/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization -B/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.600984] (-) TimerEvent: {}
+[0.701376] (-) TimerEvent: {}
+[0.801796] (-) TimerEvent: {}
+[0.891766] (cooperative_localization) StdoutLine: {'line': b'Re-run cmake file: Makefile older than: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/CMakeLists.txt\n'}
+[0.902185] (-) TimerEvent: {}
+[1.002794] (cooperative_localization) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.003312] (-) TimerEvent: {}
+[1.076084] (cooperative_localization) StdoutLine: {'line': b'-- Found Python3: /home/lorenzo/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter \n'}
+[1.103576] (-) TimerEvent: {}
+[1.204072] (-) TimerEvent: {}
+[1.304592] (-) TimerEvent: {}
+[1.405119] (-) TimerEvent: {}
+[1.419527] (cooperative_localization) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.505353] (-) TimerEvent: {}
+[1.605827] (-) TimerEvent: {}
+[1.706321] (-) TimerEvent: {}
+[1.806868] (-) TimerEvent: {}
+[1.907462] (-) TimerEvent: {}
+[2.007964] (-) TimerEvent: {}
+[2.053834] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.087757] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.108222] (-) TimerEvent: {}
+[2.140364] (cooperative_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.192394] (cooperative_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.208418] (-) TimerEvent: {}
+[2.308842] (-) TimerEvent: {}
+[2.409226] (-) TimerEvent: {}
+[2.425006] (cooperative_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.435441] (cooperative_localization) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.509488] (-) TimerEvent: {}
+[2.609907] (-) TimerEvent: {}
+[2.710305] (-) TimerEvent: {}
+[2.810704] (-) TimerEvent: {}
+[2.852325] (cooperative_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.910965] (-) TimerEvent: {}
+[3.011402] (-) TimerEvent: {}
+[3.061088] (cooperative_localization) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[3.111768] (-) TimerEvent: {}
+[3.212264] (-) TimerEvent: {}
+[3.270503] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.305226] (cooperative_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.312548] (-) TimerEvent: {}
+[3.412971] (-) TimerEvent: {}
+[3.513394] (-) TimerEvent: {}
+[3.613942] (-) TimerEvent: {}
+[3.714384] (-) TimerEvent: {}
+[3.796987] (cooperative_localization) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.814613] (-) TimerEvent: {}
+[3.915019] (-) TimerEvent: {}
+[4.015415] (-) TimerEvent: {}
+[4.115938] (-) TimerEvent: {}
+[4.216558] (-) TimerEvent: {}
+[4.316885] (-) TimerEvent: {}
+[4.417251] (-) TimerEvent: {}
+[4.517614] (-) TimerEvent: {}
+[4.580337] (cooperative_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.617846] (-) TimerEvent: {}
+[4.718298] (-) TimerEvent: {}
+[4.818713] (-) TimerEvent: {}
+[4.900000] (cooperative_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.904209] (cooperative_localization) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.918883] (-) TimerEvent: {}
+[5.019352] (-) TimerEvent: {}
+[5.119867] (-) TimerEvent: {}
+[5.220378] (-) TimerEvent: {}
+[5.320847] (-) TimerEvent: {}
+[5.421277] (-) TimerEvent: {}
+[5.521696] (-) TimerEvent: {}
+[5.622316] (-) TimerEvent: {}
+[5.722806] (-) TimerEvent: {}
+[5.739541] (cooperative_localization) StdoutLine: {'line': b'-- Found Python3: /home/lorenzo/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.822992] (-) TimerEvent: {}
+[5.923387] (-) TimerEvent: {}
+[6.023828] (-) TimerEvent: {}
+[6.116701] (cooperative_localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.124015] (-) TimerEvent: {}
+[6.224485] (-) TimerEvent: {}
+[6.324885] (-) TimerEvent: {}
+[6.372427] (cooperative_localization) StdoutLine: {'line': b'-- Configuring done (5.5s)\n'}
+[6.425081] (-) TimerEvent: {}
+[6.525543] (-) TimerEvent: {}
+[6.625996] (-) TimerEvent: {}
+[6.726317] (-) TimerEvent: {}
+[6.768194] (cooperative_localization) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[6.826541] (-) TimerEvent: {}
+[6.837486] (cooperative_localization) StdoutLine: {'line': b'-- Build files have been written to: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization\n'}
+[6.890906] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization//CMakeFiles/progress.marks\n'}
+[6.912034] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[6.915316] (cooperative_localization) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.915844] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/depend\n'}
+[6.916951] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/build.make CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/depend\n'}
+[6.917547] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_dataset.dir/build.make CMakeFiles/test_dataset.dir/depend\n'}
+[6.920385] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.920888] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/DependInfo.cmake "--color="\n'}
+[6.921177] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.921368] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/DependInfo.cmake "--color="\n'}
+[6.922319] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.922770] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/test_dataset.dir/DependInfo.cmake "--color="\n'}
+[6.926753] (-) TimerEvent: {}
+[6.943629] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.944377] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.945137] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/build.make CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/build\n'}
+[6.945648] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build\n'}
+[6.946912] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.947571] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/cmake -E copy_directory /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/rosidl_generator_py/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/ament_cmake_python/cooperative_localization/cooperative_localization\n'}
+[6.949088] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.950033] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build'.\n"}
+[6.950263] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.950453] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.950666] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_dataset.dir/build.make CMakeFiles/test_dataset.dir/build\n'}
+[6.953276] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.971722] (cooperative_localization) StdoutLine: {'line': b'[  2%] Built target cooperative_localization__rosidl_generator_type_description\n'}
+[6.975065] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__cpp.dir/build.make CMakeFiles/cooperative_localization__cpp.dir/depend\n'}
+[6.976717] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_c.dir/depend\n'}
+[6.979014] (cooperative_localization) StdoutLine: {'line': b'[  4%] Building CXX object CMakeFiles/test_dataset.dir/src/ekf_centralized.cpp.o\n'}
+[6.981718] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.982275] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__cpp.dir/DependInfo.cmake "--color="\n'}
+[6.983934] (cooperative_localization) StdoutLine: {'line': b'[  7%] Building CXX object CMakeFiles/test_dataset.dir/src/data_loader.cpp.o\n'}
+[6.984416] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[6.984737] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_c.dir/DependInfo.cmake "--color="\n'}
+[6.985655] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DROS_PACKAGE_NAME=\\"cooperative_localization\\" -I/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include -I/usr/include/eigen3 -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/nav_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/std_msgs -std=gnu++17 -Wall -Wextra -Wpedantic -march=native -MD -MT CMakeFiles/test_dataset.dir/src/ekf_centralized.cpp.o -MF CMakeFiles/test_dataset.dir/src/ekf_centralized.cpp.o.d -o CMakeFiles/test_dataset.dir/src/ekf_centralized.cpp.o -c /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/ekf_centralized.cpp\n'}
+[6.986061] (cooperative_localization) StdoutLine: {'line': b'[  9%] Building CXX object CMakeFiles/test_dataset.dir/src/test_dataset.cpp.o\n'}
+[6.988086] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DROS_PACKAGE_NAME=\\"cooperative_localization\\" -I/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include -I/usr/include/eigen3 -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/nav_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/std_msgs -std=gnu++17 -Wall -Wextra -Wpedantic -march=native -MD -MT CMakeFiles/test_dataset.dir/src/data_loader.cpp.o -MF CMakeFiles/test_dataset.dir/src/data_loader.cpp.o.d -o CMakeFiles/test_dataset.dir/src/data_loader.cpp.o -c /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/data_loader.cpp\n'}
+[6.989664] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DROS_PACKAGE_NAME=\\"cooperative_localization\\" -I/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include -I/usr/include/eigen3 -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/nav_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/std_msgs -std=gnu++17 -Wall -Wextra -Wpedantic -march=native -MD -MT CMakeFiles/test_dataset.dir/src/test_dataset.cpp.o -MF CMakeFiles/test_dataset.dir/src/test_dataset.cpp.o.d -o CMakeFiles/test_dataset.dir/src/test_dataset.cpp.o -c /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/test_dataset.cpp\n'}
+[6.993551] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.014185] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_generator_c.dir/rosidl_generator_c/cooperative_localization/msg/detail/measurement__description.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_c.dir/compiler_depend.internal".\n'}
+[7.016676] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.017226] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_generator_c.dir/rosidl_generator_c/cooperative_localization/msg/detail/measurement__functions.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_c.dir/compiler_depend.internal".\n'}
+[7.017476] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__cpp.dir/build.make CMakeFiles/cooperative_localization__cpp.dir/build\n'}
+[7.019610] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_generator_c.dir/rosidl_generator_c/cooperative_localization/msg/detail/measurement__type_support.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_c.dir/compiler_depend.internal".\n'}
+[7.023975] (cooperative_localization) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_cooperative_localization\n'}
+[7.024532] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.024792] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__cpp.dir/build'.\n"}
+[7.024930] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.026761] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/build.make CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/depend\n'}
+[7.027136] (-) TimerEvent: {}
+[7.029298] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_generator_c\n'}
+[7.030134] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.030584] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/DependInfo.cmake "--color="\n'}
+[7.032257] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.033721] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_c.dir/build\n'}
+[7.052880] (cooperative_localization) StdoutLine: {'line': b'[ 12%] Built target cooperative_localization__cpp\n'}
+[7.054247] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.054733] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_generator_c.dir/build'.\n"}
+[7.054999] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.062114] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.063282] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/build.make CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/build\n'}
+[7.065613] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.066128] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/ament_cmake_python/cooperative_localization && /home/lorenzo/miniconda3/bin/python3 setup.py egg_info\n'}
+[7.076025] (cooperative_localization) StdoutLine: {'line': b'[ 24%] Built target cooperative_localization__rosidl_generator_c\n'}
+[7.078819] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/depend\n'}
+[7.080772] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[7.081056] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[7.081819] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/depend\n'}
+[7.082873] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/depend\n'}
+[7.084011] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.084564] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[7.084787] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color="\n'}
+[7.086021] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.090351] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[7.092550] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.093489] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color="\n'}
+[7.093797] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.094125] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[7.094609] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.094802] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[7.094980] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.095146] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake "--color="\n'}
+[7.114210] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/measurement__type_support.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/compiler_depend.internal".\n'}
+[7.115166] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cooperative_localization/msg/measurement__type_support.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/compiler_depend.internal".\n'}
+[7.118424] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cooperative_localization/msg/detail/measurement__type_support_c.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/compiler_depend.internal".\n'}
+[7.124188] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_typesupport_introspection_c\n'}
+[7.127137] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/cooperative_localization/msg/measurement__type_support.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/compiler_depend.internal".\n'}
+[7.127691] (-) TimerEvent: {}
+[7.127766] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.128033] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_typesupport_cpp\n'}
+[7.128648] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/build\n'}
+[7.132004] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cooperative_localization/msg/detail/measurement__type_support.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/compiler_depend.internal".\n'}
+[7.133410] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/measurement__type_support.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.internal".\n'}
+[7.133672] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.134016] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/build\n'}
+[7.134245] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_typesupport_c\n'}
+[7.135731] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_typesupport_fastrtps_c\n'}
+[7.136649] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.137359] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.137558] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/build\n'}
+[7.139778] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_typesupport_introspection_cpp\n'}
+[7.140781] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.142605] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[7.142921] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.143259] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[7.145148] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.146028] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[7.146501] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_typesupport_fastrtps_cpp\n'}
+[7.150441] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.153487] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[7.154025] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.154364] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_typesupport_c.dir/build'.\n"}
+[7.154897] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.158819] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.159770] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_typesupport_cpp.dir/build'.\n"}
+[7.160042] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.161097] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.161467] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_cpp.dir/build'.\n"}
+[7.161703] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.164335] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.165773] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[7.166024] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.166223] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/build'.\n"}
+[7.166385] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.166547] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.176364] (cooperative_localization) StdoutLine: {'line': b'[ 31%] Built target cooperative_localization__rosidl_typesupport_introspection_c\n'}
+[7.198977] (cooperative_localization) StdoutLine: {'line': b'[ 46%] Built target cooperative_localization__rosidl_typesupport_c\n'}
+[7.199499] (cooperative_localization) StdoutLine: {'line': b'[ 46%] Built target cooperative_localization__rosidl_typesupport_fastrtps_c\n'}
+[7.201283] (cooperative_localization) StdoutLine: {'line': b'[ 53%] Built target cooperative_localization__rosidl_typesupport_introspection_cpp\n'}
+[7.201644] (cooperative_localization) StdoutLine: {'line': b'[ 60%] Built target cooperative_localization__rosidl_typesupport_cpp\n'}
+[7.202610] (cooperative_localization) StdoutLine: {'line': b'[ 68%] Built target cooperative_localization__rosidl_typesupport_fastrtps_cpp\n'}
+[7.204821] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/coop_localization_node.dir/build.make CMakeFiles/coop_localization_node.dir/depend\n'}
+[7.206031] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization.dir/build.make CMakeFiles/cooperative_localization.dir/depend\n'}
+[7.209244] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.209670] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/coop_localization_node.dir/DependInfo.cmake "--color="\n'}
+[7.210634] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.211095] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization.dir/DependInfo.cmake "--color="\n'}
+[7.227924] (-) TimerEvent: {}
+[7.242356] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/coop_localization_node.dir/compiler_depend.internal".\n'}
+[7.245173] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.247273] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization.dir/build.make CMakeFiles/cooperative_localization.dir/build\n'}
+[7.248431] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/coop_localization_node.dir/src/ekf_centralized.cpp.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/coop_localization_node.dir/compiler_depend.internal".\n'}
+[7.249710] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.251545] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization.dir/build'.\n"}
+[7.251793] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.277981] (cooperative_localization) StdoutLine: {'line': b'[ 68%] Built target cooperative_localization\n'}
+[7.284121] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f cooperative_localization__py/CMakeFiles/cooperative_localization__py.dir/build.make cooperative_localization__py/CMakeFiles/cooperative_localization__py.dir/depend\n'}
+[7.289449] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.289834] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/cooperative_localization__py /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/cooperative_localization__py /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/cooperative_localization__py/CMakeFiles/cooperative_localization__py.dir/DependInfo.cmake "--color="\n'}
+[7.304507] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target coop_localization_node\n'}
+[7.307524] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.308435] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/coop_localization_node.dir/build.make CMakeFiles/coop_localization_node.dir/build\n'}
+[7.320963] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.322619] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f cooperative_localization__py/CMakeFiles/cooperative_localization__py.dir/build.make cooperative_localization__py/CMakeFiles/cooperative_localization__py.dir/build\n'}
+[7.326204] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.326949] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'cooperative_localization__py/CMakeFiles/cooperative_localization__py.dir/build'.\n"}
+[7.327373] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.328078] (-) TimerEvent: {}
+[7.362520] (cooperative_localization) StdoutLine: {'line': b'[ 70%] Built target cooperative_localization__py\n'}
+[7.366427] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_py.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_py.dir/depend\n'}
+[7.370132] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.370657] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_py.dir/DependInfo.cmake "--color="\n'}
+[7.401872] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization__rosidl_generator_py.dir/rosidl_generator_py/cooperative_localization/msg/_measurement_s.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_py.dir/compiler_depend.internal".\n'}
+[7.412577] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization__rosidl_generator_py\n'}
+[7.415732] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.416702] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_py.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_py.dir/build\n'}
+[7.423944] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.424411] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/coop_localization_node.dir/build'.\n"}
+[7.424617] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.428320] (-) TimerEvent: {}
+[7.431971] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.432330] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization__rosidl_generator_py.dir/build'.\n"}
+[7.432516] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.452967] (cooperative_localization) StdoutLine: {'line': b'[ 78%] Built target coop_localization_node\n'}
+[7.459745] (cooperative_localization) StdoutLine: {'line': b'[ 82%] Built target cooperative_localization__rosidl_generator_py\n'}
+[7.464781] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[7.466797] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/depend\n'}
+[7.467371] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/build.make CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/depend\n'}
+[7.469323] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.469801] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[7.473199] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.473648] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[7.474730] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.475024] (cooperative_localization) StdoutLine: {'line': b'cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[7.503993] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_introspection_c.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/compiler_depend.internal".\n'}
+[7.505505] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/rosidl_generator_py/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_c.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/compiler_depend.internal".\n'}
+[7.505987] (cooperative_localization) StdoutLine: {'line': b'Dependencies file "CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_fastrtps_c.c.o.d" is newer than depends file "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.internal".\n'}
+[7.513912] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization_s__rosidl_typesupport_introspection_c\n'}
+[7.515791] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization_s__rosidl_typesupport_fastrtps_c\n'}
+[7.517197] (cooperative_localization) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cooperative_localization_s__rosidl_typesupport_c\n'}
+[7.518617] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.519129] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/build\n'}
+[7.520113] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.521689] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[7.521949] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.522259] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/build.make CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/build\n'}
+[7.525922] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.526398] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization_s__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[7.526713] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.528646] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.529133] (-) TimerEvent: {}
+[7.529189] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization_s__rosidl_typesupport_c.dir/build'.\n"}
+[7.529471] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.530474] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.531140] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/cooperative_localization_s__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[7.531652] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[7.554827] (cooperative_localization) StdoutLine: {'line': b'[ 87%] Built target cooperative_localization_s__rosidl_typesupport_introspection_c\n'}
+[7.560339] (cooperative_localization) StdoutLine: {'line': b'[ 92%] Built target cooperative_localization_s__rosidl_typesupport_fastrtps_c\n'}
+[7.561289] (cooperative_localization) StdoutLine: {'line': b'[ 97%] Built target cooperative_localization_s__rosidl_typesupport_c\n'}
+[7.629329] (-) TimerEvent: {}
+[7.729673] (-) TimerEvent: {}
+[7.830039] (-) TimerEvent: {}
+[7.902212] (cooperative_localization) StdoutLine: {'line': b'running egg_info\n'}
+[7.930382] (-) TimerEvent: {}
+[7.954630] (cooperative_localization) StdoutLine: {'line': b'writing cooperative_localization.egg-info/PKG-INFO\n'}
+[7.960001] (cooperative_localization) StdoutLine: {'line': b'writing dependency_links to cooperative_localization.egg-info/dependency_links.txt\n'}
+[7.961556] (cooperative_localization) StdoutLine: {'line': b'writing top-level names to cooperative_localization.egg-info/top_level.txt\n'}
+[8.030621] (-) TimerEvent: {}
+[8.095041] (cooperative_localization) StdoutLine: {'line': b"reading manifest file 'cooperative_localization.egg-info/SOURCES.txt'\n"}
+[8.097716] (cooperative_localization) StdoutLine: {'line': b"writing manifest file 'cooperative_localization.egg-info/SOURCES.txt'\n"}
+[8.130905] (-) TimerEvent: {}
+[8.175859] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[8.202534] (cooperative_localization) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cooperative_localization_egg\n'}
+[8.231221] (-) TimerEvent: {}
+[8.331546] (-) TimerEvent: {}
+[8.431940] (-) TimerEvent: {}
+[8.532457] (-) TimerEvent: {}
+[8.633007] (-) TimerEvent: {}
+[8.733519] (-) TimerEvent: {}
+[8.833926] (-) TimerEvent: {}
+[8.934361] (-) TimerEvent: {}
+[9.034791] (-) TimerEvent: {}
+[9.135374] (-) TimerEvent: {}
+[9.235829] (-) TimerEvent: {}
+[9.336302] (-) TimerEvent: {}
+[9.436799] (-) TimerEvent: {}
+[9.537271] (-) TimerEvent: {}
+[9.637683] (-) TimerEvent: {}
+[9.738070] (-) TimerEvent: {}
+[9.838415] (-) TimerEvent: {}
+[9.938840] (-) TimerEvent: {}
+[10.039243] (-) TimerEvent: {}
+[10.139746] (-) TimerEvent: {}
+[10.240320] (-) TimerEvent: {}
+[10.340770] (-) TimerEvent: {}
+[10.441279] (-) TimerEvent: {}
+[10.541846] (-) TimerEvent: {}
+[10.642293] (-) TimerEvent: {}
+[10.742736] (-) TimerEvent: {}
+[10.843281] (-) TimerEvent: {}
+[10.943871] (-) TimerEvent: {}
+[11.044526] (-) TimerEvent: {}
+[11.145230] (-) TimerEvent: {}
+[11.245773] (-) TimerEvent: {}
+[11.346322] (-) TimerEvent: {}
+[11.446869] (-) TimerEvent: {}
+[11.547414] (-) TimerEvent: {}
+[11.647855] (-) TimerEvent: {}
+[11.692889] (cooperative_localization) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:199,\n'}
+[11.693402] (cooperative_localization) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Dense:1,\n'}
+[11.693641] (cooperative_localization) StderrLine: {'line': b'                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,\n'}
+[11.694350] (cooperative_localization) StderrLine: {'line': b'                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/data_loader.cpp:1:\n'}
+[11.694699] (cooperative_localization) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function \xe2\x80\x98Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)\xe2\x80\x99:\n'}
+[11.694849] (cooperative_localization) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable \xe2\x80\x98r\xe2\x80\x99 [-Wunused-variable]\n'}
+[11.694977] (cooperative_localization) StderrLine: {'line': b' 1275 |   Packet8bf r;\n'}
+[11.695123] (cooperative_localization) StderrLine: {'line': b'      |             ^\n'}
+[11.748116] (-) TimerEvent: {}
+[11.848641] (-) TimerEvent: {}
+[11.885701] (cooperative_localization) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:199,\n'}
+[11.886209] (cooperative_localization) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Dense:1,\n'}
+[11.886392] (cooperative_localization) StderrLine: {'line': b'                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:4,\n'}
+[11.886792] (cooperative_localization) StderrLine: {'line': b'                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/ekf_centralized.cpp:1:\n'}
+[11.886994] (cooperative_localization) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function \xe2\x80\x98Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)\xe2\x80\x99:\n'}
+[11.887161] (cooperative_localization) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable \xe2\x80\x98r\xe2\x80\x99 [-Wunused-variable]\n'}
+[11.887349] (cooperative_localization) StderrLine: {'line': b' 1275 |   Packet8bf r;\n'}
+[11.887514] (cooperative_localization) StderrLine: {'line': b'      |             ^\n'}
+[11.948931] (-) TimerEvent: {}
+[12.049424] (-) TimerEvent: {}
+[12.080316] (cooperative_localization) StderrLine: {'line': b'In file included from /usr/include/eigen3/Eigen/Core:199,\n'}
+[12.081021] (cooperative_localization) StderrLine: {'line': b'                 from /usr/include/eigen3/Eigen/Dense:1,\n'}
+[12.081312] (cooperative_localization) StderrLine: {'line': b'                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,\n'}
+[12.082144] (cooperative_localization) StderrLine: {'line': b'                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/test_dataset.cpp:1:\n'}
+[12.082440] (cooperative_localization) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function \xe2\x80\x98Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)\xe2\x80\x99:\n'}
+[12.082663] (cooperative_localization) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable \xe2\x80\x98r\xe2\x80\x99 [-Wunused-variable]\n'}
+[12.082884] (cooperative_localization) StderrLine: {'line': b' 1275 |   Packet8bf r;\n'}
+[12.083209] (cooperative_localization) StderrLine: {'line': b'      |             ^\n'}
+[12.150039] (-) TimerEvent: {}
+[12.250517] (-) TimerEvent: {}
+[12.350908] (-) TimerEvent: {}
+[12.451395] (-) TimerEvent: {}
+[12.551987] (-) TimerEvent: {}
+[12.652526] (-) TimerEvent: {}
+[12.752996] (-) TimerEvent: {}
+[12.853467] (-) TimerEvent: {}
+[12.953940] (-) TimerEvent: {}
+[13.054527] (-) TimerEvent: {}
+[13.155140] (-) TimerEvent: {}
+[13.255656] (-) TimerEvent: {}
+[13.356124] (-) TimerEvent: {}
+[13.456469] (-) TimerEvent: {}
+[13.556917] (-) TimerEvent: {}
+[13.657356] (-) TimerEvent: {}
+[13.757675] (-) TimerEvent: {}
+[13.858159] (-) TimerEvent: {}
+[13.958631] (-) TimerEvent: {}
+[14.058978] (-) TimerEvent: {}
+[14.159348] (-) TimerEvent: {}
+[14.259836] (-) TimerEvent: {}
+[14.360341] (-) TimerEvent: {}
+[14.460745] (-) TimerEvent: {}
+[14.561193] (-) TimerEvent: {}
+[14.661673] (-) TimerEvent: {}
+[14.762069] (-) TimerEvent: {}
+[14.862603] (-) TimerEvent: {}
+[14.963101] (-) TimerEvent: {}
+[15.063569] (-) TimerEvent: {}
+[15.164063] (-) TimerEvent: {}
+[15.264533] (-) TimerEvent: {}
+[15.364990] (-) TimerEvent: {}
+[15.465438] (-) TimerEvent: {}
+[15.565948] (-) TimerEvent: {}
+[15.666570] (-) TimerEvent: {}
+[15.767102] (-) TimerEvent: {}
+[15.867623] (-) TimerEvent: {}
+[15.968199] (-) TimerEvent: {}
+[16.068753] (-) TimerEvent: {}
+[16.169265] (-) TimerEvent: {}
+[16.269778] (-) TimerEvent: {}
+[16.370219] (-) TimerEvent: {}
+[16.470710] (-) TimerEvent: {}
+[16.571138] (-) TimerEvent: {}
+[16.671547] (-) TimerEvent: {}
+[16.772179] (-) TimerEvent: {}
+[16.872630] (-) TimerEvent: {}
+[16.973048] (-) TimerEvent: {}
+[17.073484] (-) TimerEvent: {}
+[17.173900] (-) TimerEvent: {}
+[17.274313] (-) TimerEvent: {}
+[17.374720] (-) TimerEvent: {}
+[17.475200] (-) TimerEvent: {}
+[17.575831] (-) TimerEvent: {}
+[17.677244] (-) TimerEvent: {}
+[17.777782] (-) TimerEvent: {}
+[17.878298] (-) TimerEvent: {}
+[17.978770] (cooperative_localization) StderrLine: {'line': b'/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h: In constructor \xe2\x80\x98EkfCentralized::EkfCentralized(int, const Eigen::VectorXd&)\xe2\x80\x99:\n'}
+[17.979234] (-) TimerEvent: {}
+[17.979274] (cooperative_localization) StderrLine: {'line': b'/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:33:9: warning: \xe2\x80\x98EkfCentralized::num_robots_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[17.979443] (cooperative_localization) StderrLine: {'line': b'   33 |     int num_robots_;\n'}
+[17.979569] (cooperative_localization) StderrLine: {'line': b'      |         ^~~~~~~~~~~\n'}
+[17.979692] (cooperative_localization) StderrLine: {'line': b'/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:27:21: warning:   \xe2\x80\x98Eigen::VectorXd EkfCentralized::state_\xe2\x80\x99 [-Wreorder]\n'}
+[17.979819] (cooperative_localization) StderrLine: {'line': b'   27 |     Eigen::VectorXd state_;\n'}
+[17.979947] (cooperative_localization) StderrLine: {'line': b'      |                     ^~~~~~\n'}
+[17.980085] (cooperative_localization) StderrLine: {'line': b'/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/ekf_centralized.cpp:5:1: warning:   when initialized here [-Wreorder]\n'}
+[17.980264] (cooperative_localization) StderrLine: {'line': b'    5 | EkfCentralized::EkfCentralized(int num_robots, const Eigen::VectorXd& initial_state) :\n'}
+[17.980746] (cooperative_localization) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~\n'}
+[18.079656] (-) TimerEvent: {}
+[18.180370] (-) TimerEvent: {}
+[18.280912] (-) TimerEvent: {}
+[18.381430] (-) TimerEvent: {}
+[18.481987] (-) TimerEvent: {}
+[18.582565] (-) TimerEvent: {}
+[18.683067] (-) TimerEvent: {}
+[18.783654] (-) TimerEvent: {}
+[18.884162] (-) TimerEvent: {}
+[18.984751] (-) TimerEvent: {}
+[19.085241] (-) TimerEvent: {}
+[19.185828] (-) TimerEvent: {}
+[19.286407] (-) TimerEvent: {}
+[19.386964] (-) TimerEvent: {}
+[19.487788] (-) TimerEvent: {}
+[19.588606] (-) TimerEvent: {}
+[19.689195] (-) TimerEvent: {}
+[19.789967] (-) TimerEvent: {}
+[19.890958] (-) TimerEvent: {}
+[19.991665] (-) TimerEvent: {}
+[20.092359] (-) TimerEvent: {}
+[20.192988] (-) TimerEvent: {}
+[20.294049] (-) TimerEvent: {}
+[20.394609] (-) TimerEvent: {}
+[20.495173] (-) TimerEvent: {}
+[20.595682] (-) TimerEvent: {}
+[20.696424] (-) TimerEvent: {}
+[20.796975] (-) TimerEvent: {}
+[20.897608] (-) TimerEvent: {}
+[20.998192] (-) TimerEvent: {}
+[21.098911] (-) TimerEvent: {}
+[21.199462] (-) TimerEvent: {}
+[21.300045] (-) TimerEvent: {}
+[21.400575] (-) TimerEvent: {}
+[21.501658] (-) TimerEvent: {}
+[21.602467] (-) TimerEvent: {}
+[21.703146] (-) TimerEvent: {}
+[21.803740] (-) TimerEvent: {}
+[21.904325] (-) TimerEvent: {}
+[22.004950] (-) TimerEvent: {}
+[22.105579] (-) TimerEvent: {}
+[22.206140] (-) TimerEvent: {}
+[22.306743] (-) TimerEvent: {}
+[22.407585] (-) TimerEvent: {}
+[22.508519] (-) TimerEvent: {}
+[22.609153] (-) TimerEvent: {}
+[22.709723] (-) TimerEvent: {}
+[22.810468] (-) TimerEvent: {}
+[22.911211] (-) TimerEvent: {}
+[23.011901] (-) TimerEvent: {}
+[23.112631] (-) TimerEvent: {}
+[23.213341] (-) TimerEvent: {}
+[23.313963] (-) TimerEvent: {}
+[23.414637] (-) TimerEvent: {}
+[23.515189] (-) TimerEvent: {}
+[23.616119] (-) TimerEvent: {}
+[23.716921] (-) TimerEvent: {}
+[23.817434] (-) TimerEvent: {}
+[23.918376] (-) TimerEvent: {}
+[24.018907] (-) TimerEvent: {}
+[24.119550] (-) TimerEvent: {}
+[24.220850] (-) TimerEvent: {}
+[24.321862] (-) TimerEvent: {}
+[24.422804] (-) TimerEvent: {}
+[24.523736] (-) TimerEvent: {}
+[24.624368] (-) TimerEvent: {}
+[24.724961] (-) TimerEvent: {}
+[24.825586] (-) TimerEvent: {}
+[24.926394] (-) TimerEvent: {}
+[25.027214] (-) TimerEvent: {}
+[25.127916] (-) TimerEvent: {}
+[25.228543] (-) TimerEvent: {}
+[25.329128] (-) TimerEvent: {}
+[25.429710] (-) TimerEvent: {}
+[25.530231] (-) TimerEvent: {}
+[25.630998] (-) TimerEvent: {}
+[25.731859] (-) TimerEvent: {}
+[25.832299] (-) TimerEvent: {}
+[25.932836] (-) TimerEvent: {}
+[26.033366] (-) TimerEvent: {}
+[26.133982] (-) TimerEvent: {}
+[26.234664] (-) TimerEvent: {}
+[26.335177] (-) TimerEvent: {}
+[26.435704] (-) TimerEvent: {}
+[26.536273] (-) TimerEvent: {}
+[26.636854] (-) TimerEvent: {}
+[26.737359] (-) TimerEvent: {}
+[26.837916] (-) TimerEvent: {}
+[26.938518] (-) TimerEvent: {}
+[27.039112] (-) TimerEvent: {}
+[27.139683] (-) TimerEvent: {}
+[27.240165] (-) TimerEvent: {}
+[27.340686] (-) TimerEvent: {}
+[27.441265] (-) TimerEvent: {}
+[27.541822] (-) TimerEvent: {}
+[27.642381] (-) TimerEvent: {}
+[27.742891] (-) TimerEvent: {}
+[27.843692] (-) TimerEvent: {}
+[27.944195] (-) TimerEvent: {}
+[28.044639] (-) TimerEvent: {}
+[28.145175] (-) TimerEvent: {}
+[28.245687] (-) TimerEvent: {}
+[28.346102] (-) TimerEvent: {}
+[28.446672] (-) TimerEvent: {}
+[28.547310] (-) TimerEvent: {}
+[28.648134] (-) TimerEvent: {}
+[28.748556] (-) TimerEvent: {}
+[28.849061] (-) TimerEvent: {}
+[28.949577] (-) TimerEvent: {}
+[29.050147] (-) TimerEvent: {}
+[29.150772] (-) TimerEvent: {}
+[29.251370] (-) TimerEvent: {}
+[29.351868] (-) TimerEvent: {}
+[29.452388] (-) TimerEvent: {}
+[29.552915] (-) TimerEvent: {}
+[29.653404] (-) TimerEvent: {}
+[29.753963] (-) TimerEvent: {}
+[29.854415] (-) TimerEvent: {}
+[29.954927] (-) TimerEvent: {}
+[30.055404] (-) TimerEvent: {}
+[30.156080] (-) TimerEvent: {}
+[30.256545] (-) TimerEvent: {}
+[30.356926] (-) TimerEvent: {}
+[30.457387] (-) TimerEvent: {}
+[30.557752] (-) TimerEvent: {}
+[30.658189] (-) TimerEvent: {}
+[30.758579] (-) TimerEvent: {}
+[30.858977] (-) TimerEvent: {}
+[30.959388] (-) TimerEvent: {}
+[31.059753] (-) TimerEvent: {}
+[31.160167] (-) TimerEvent: {}
+[31.260691] (-) TimerEvent: {}
+[31.361084] (-) TimerEvent: {}
+[31.461517] (-) TimerEvent: {}
+[31.561949] (-) TimerEvent: {}
+[31.662293] (-) TimerEvent: {}
+[31.762924] (-) TimerEvent: {}
+[31.863263] (-) TimerEvent: {}
+[31.963750] (-) TimerEvent: {}
+[32.064138] (-) TimerEvent: {}
+[32.164471] (-) TimerEvent: {}
+[32.264958] (-) TimerEvent: {}
+[32.365494] (-) TimerEvent: {}
+[32.465926] (-) TimerEvent: {}
+[32.566413] (-) TimerEvent: {}
+[32.666856] (-) TimerEvent: {}
+[32.767263] (-) TimerEvent: {}
+[32.867748] (-) TimerEvent: {}
+[32.968219] (-) TimerEvent: {}
+[33.068609] (-) TimerEvent: {}
+[33.169009] (-) TimerEvent: {}
+[33.269406] (-) TimerEvent: {}
+[33.369862] (-) TimerEvent: {}
+[33.470358] (-) TimerEvent: {}
+[33.571053] (-) TimerEvent: {}
+[33.671452] (-) TimerEvent: {}
+[33.771898] (-) TimerEvent: {}
+[33.872376] (-) TimerEvent: {}
+[33.972816] (-) TimerEvent: {}
+[34.073252] (-) TimerEvent: {}
+[34.173710] (-) TimerEvent: {}
+[34.274063] (-) TimerEvent: {}
+[34.374433] (-) TimerEvent: {}
+[34.474938] (-) TimerEvent: {}
+[34.575516] (-) TimerEvent: {}
+[34.676006] (-) TimerEvent: {}
+[34.776410] (-) TimerEvent: {}
+[34.876782] (-) TimerEvent: {}
+[34.977127] (-) TimerEvent: {}
+[35.077516] (-) TimerEvent: {}
+[35.177910] (-) TimerEvent: {}
+[35.278357] (-) TimerEvent: {}
+[35.378814] (-) TimerEvent: {}
+[35.479191] (-) TimerEvent: {}
+[35.579533] (-) TimerEvent: {}
+[35.679988] (-) TimerEvent: {}
+[35.780561] (-) TimerEvent: {}
+[35.881043] (-) TimerEvent: {}
+[35.981624] (-) TimerEvent: {}
+[36.082072] (-) TimerEvent: {}
+[36.182549] (-) TimerEvent: {}
+[36.283043] (-) TimerEvent: {}
+[36.383528] (-) TimerEvent: {}
+[36.484032] (-) TimerEvent: {}
+[36.584442] (-) TimerEvent: {}
+[36.684860] (-) TimerEvent: {}
+[36.785327] (-) TimerEvent: {}
+[36.885835] (-) TimerEvent: {}
+[36.986188] (-) TimerEvent: {}
+[37.086610] (-) TimerEvent: {}
+[37.187039] (-) TimerEvent: {}
+[37.287415] (-) TimerEvent: {}
+[37.387802] (-) TimerEvent: {}
+[37.488301] (-) TimerEvent: {}
+[37.588706] (-) TimerEvent: {}
+[37.689077] (-) TimerEvent: {}
+[37.789570] (-) TimerEvent: {}
+[37.889957] (-) TimerEvent: {}
+[37.990300] (-) TimerEvent: {}
+[38.090739] (-) TimerEvent: {}
+[38.191106] (-) TimerEvent: {}
+[38.291503] (-) TimerEvent: {}
+[38.391939] (-) TimerEvent: {}
+[38.444598] (cooperative_localization) StdoutLine: {'line': b'[100%] Linking CXX executable test_dataset\n'}
+[38.448051] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_dataset.dir/link.txt --verbose=1\n'}
+[38.469257] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/c++ CMakeFiles/test_dataset.dir/src/test_dataset.cpp.o CMakeFiles/test_dataset.dir/src/ekf_centralized.cpp.o CMakeFiles/test_dataset.dir/src/data_loader.cpp.o -o test_dataset  -Wl,-rpath,/opt/ros/jazzy/lib:/home/lorenzo/miniconda3/lib: /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/liblibstatistics_collector.so /opt/ros/jazzy/lib/librcl.so /opt/ros/jazzy/lib/librmw_implementation.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_yaml_param_parser.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libtracetools.so -llttng-ust -llttng-ust-common -rdynamic -ldl /opt/ros/jazzy/lib/librcl_logging_interface.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so /opt/ros/jazzy/lib/libfastcdr.so.2.2.5 /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librcutils.so -ldl -Wl,-rpath-link,/opt/ros/jazzy/lib:/home/lorenzo/miniconda3/lib \n'}
+[38.492212] (-) TimerEvent: {}
+[38.592632] (-) TimerEvent: {}
+[38.693047] (-) TimerEvent: {}
+[38.793445] (-) TimerEvent: {}
+[38.894012] (-) TimerEvent: {}
+[38.994456] (-) TimerEvent: {}
+[39.094968] (-) TimerEvent: {}
+[39.195546] (-) TimerEvent: {}
+[39.296152] (-) TimerEvent: {}
+[39.396752] (-) TimerEvent: {}
+[39.497222] (-) TimerEvent: {}
+[39.597720] (-) TimerEvent: {}
+[39.698100] (-) TimerEvent: {}
+[39.798665] (-) TimerEvent: {}
+[39.861306] (cooperative_localization) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[39.898974] (-) TimerEvent: {}
+[39.900589] (cooperative_localization) StdoutLine: {'line': b'[100%] Built target test_dataset\n'}
+[39.906138] (cooperative_localization) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'\n"}
+[39.912336] (cooperative_localization) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles 0\n'}
+[39.999105] (-) TimerEvent: {}
+[40.023161] (cooperative_localization) StdoutLine: {'line': b'\n'}
+[40.105295] (cooperative_localization) CommandEnded: {'returncode': 0}
+[40.155743] (-) TimerEvent: {}
+[40.185444] (cooperative_localization) JobProgress: {'identifier': 'cooperative_localization', 'progress': 'install'}
+[40.266333] (cooperative_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'], 'cwd': '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'lorenzo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lorenzo', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lorenzo/robotica_ws/src/lorenzo.nobili', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/home/lorenzo/robotica_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lorenzo/robotica_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lorenzo', 'NAME': 'DESKTOP-PT7M2OM', 'WSL_INTEROP': '/run/WSL/129446_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lorenzo/miniconda3/bin:/home/lorenzo/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/gurobi1100/win64/bin:/mnt/c/gurobi1003/win64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Calibre2:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2023b/toolbox/10.1/tools/platform/win64x86/bin:/mnt/c/Program Files/Mosek/10.1/tools/platform/win64x86/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Meld:/mnt/c/Program Files/CMake/bin:/mnt/c/opencv/build/x64/vc16/lib:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Wolfram Research/WolframScript:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/Users/lorenzo/AppData/Local/Programs/Trae/bin:/mnt/c/Users/lorenzo/miniconda3:/mnt/c/Users/lorenzo/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/lorenzo/miniconda3/Library/usr/bin:/mnt/c/Users/lorenzo/miniconda3/Library/bin:/mnt/c/Users/lorenzo/miniconda3/Scripts:/mnt/c/Users/lorenzo/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/lorenzo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lorenzo/AppData/Roaming/npm:/mnt/c/ghcup/bin:/mnt/c/Users/lorenzo/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Users/lorenzo/AppData/Roaming/Programs/Zero Install:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/lorenzo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lorenzo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4/bin:/mnt/c/Users/lorenzo/AppData/Local/Muse Hub/lib:/mnt/c/Users/lorenzo/AppData/Local/GitHubDesktop/bin:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/lorenzo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CONDA_DEFAULT_ENV': 'base', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization', 'CONDA_EXE': '/home/lorenzo/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/lorenzo/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[40.280489] (-) TimerEvent: {}
+[40.317091] (cooperative_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.325275] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/ament_index/resource_index/rosidl_interfaces/cooperative_localization\n'}
+[40.327078] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/msg/Measurement.json\n'}
+[40.328436] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization\n'}
+[40.329419] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg\n'}
+[40.330128] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail\n'}
+[40.331906] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__functions.c\n'}
+[40.332878] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__description.c\n'}
+[40.333063] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__struct.h\n'}
+[40.333261] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__functions.h\n'}
+[40.333402] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.c\n'}
+[40.335394] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.h\n'}
+[40.336513] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/measurement.h\n'}
+[40.337405] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_generator_c__visibility_control.h\n'}
+[40.338403] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/library_path.sh\n'}
+[40.338597] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/library_path.dsv\n'}
+[40.343318] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_generator_c.so\n'}
+[40.345298] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization\n'}
+[40.346037] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg\n'}
+[40.346751] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail\n'}
+[40.349777] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_fastrtps_c.h\n'}
+[40.350923] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[40.354378] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_fastrtps_c.so\n'}
+[40.355412] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization\n'}
+[40.356028] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg\n'}
+[40.357032] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail\n'}
+[40.357984] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.hpp\n'}
+[40.358205] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__struct.hpp\n'}
+[40.358375] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__traits.hpp\n'}
+[40.359387] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__builder.hpp\n'}
+[40.360755] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/measurement.hpp\n'}
+[40.361326] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[40.362405] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization\n'}
+[40.363166] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg\n'}
+[40.363894] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[40.366128] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail\n'}
+[40.368109] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.368431] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/dds_fastrtps\n'}
+[40.370541] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_fastrtps_cpp.so\n'}
+[40.371541] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization\n'}
+[40.372662] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg\n'}
+[40.373486] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail\n'}
+[40.373746] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_introspection_c.h\n'}
+[40.373968] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.c\n'}
+[40.374683] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[40.377058] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_introspection_c.so\n'}
+[40.380199] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_c.so\n'}
+[40.380665] (-) TimerEvent: {}
+[40.381137] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization\n'}
+[40.382428] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg\n'}
+[40.382718] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail\n'}
+[40.382871] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.cpp\n'}
+[40.382996] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[40.384089] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_introspection_cpp.so\n'}
+[40.388389] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_cpp.so\n'}
+[40.389340] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/pythonpath.sh\n'}
+[40.390030] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/pythonpath.dsv\n'}
+[40.391179] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info\n'}
+[40.391523] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[40.392634] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[40.393651] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[40.394901] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[40.396480] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization\n'}
+[40.398067] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_introspection_c.so\n'}
+[40.398662] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/__init__.py\n'}
+[40.399363] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_c.c\n'}
+[40.400663] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[40.405509] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg\n'}
+[40.406430] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg/__init__.py\n'}
+[40.407035] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg/_measurement.py\n'}
+[40.408638] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg/_measurement_s.c\n'}
+[40.408877] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_fastrtps_c.so\n'}
+[40.413051] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[40.413317] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_c.so\n'}
+[40.480887] (-) TimerEvent: {}
+[40.581293] (-) TimerEvent: {}
+[40.668607] (cooperative_localization) StdoutLine: {'line': b"Listing '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization'...\n"}
+[40.669157] (cooperative_localization) StdoutLine: {'line': b"Compiling '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/__init__.py'...\n"}
+[40.669470] (cooperative_localization) StdoutLine: {'line': b"Listing '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg'...\n"}
+[40.681595] (-) TimerEvent: {}
+[40.688020] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_fastrtps_c.so\n'}
+[40.690942] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_introspection_c.so\n'}
+[40.694043] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_c.so\n'}
+[40.696483] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/libcooperative_localization__rosidl_generator_py.so\n'}
+[40.697576] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/msg/Measurement.idl\n'}
+[40.698069] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/msg/Measurement.msg\n'}
+[40.700050] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/cooperative_localization/coop_localization_node\n'}
+[40.702635] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/cooperative_localization/test_dataset\n'}
+[40.715648] (cooperative_localization) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/lib/cooperative_localization/test_dataset" to ""\n'}
+[40.716615] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/ament_index/resource_index/package_run_dependencies/cooperative_localization\n'}
+[40.717046] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/ament_index/resource_index/parent_prefix_path/cooperative_localization\n'}
+[40.717184] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/ament_prefix_path.sh\n'}
+[40.717786] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/ament_prefix_path.dsv\n'}
+[40.718145] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/path.sh\n'}
+[40.718833] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/environment/path.dsv\n'}
+[40.719673] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/local_setup.bash\n'}
+[40.719939] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/local_setup.sh\n'}
+[40.720070] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/local_setup.zsh\n'}
+[40.720224] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/local_setup.dsv\n'}
+[40.720388] (cooperative_localization) StdoutLine: {'line': b'-- Installing: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/package.dsv\n'}
+[40.721712] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/ament_index/resource_index/packages/cooperative_localization\n'}
+[40.724233] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_cExport.cmake\n'}
+[40.725252] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_cExport-noconfig.cmake\n'}
+[40.726851] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[40.728492] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[40.729182] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_cppExport.cmake\n'}
+[40.731318] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[40.732607] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[40.733872] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cExport.cmake\n'}
+[40.734570] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[40.735750] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cExport.cmake\n'}
+[40.736127] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[40.737894] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[40.738931] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[40.740025] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cppExport.cmake\n'}
+[40.740625] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[40.741793] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_pyExport.cmake\n'}
+[40.744317] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_pyExport-noconfig.cmake\n'}
+[40.744682] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/rosidl_cmake-extras.cmake\n'}
+[40.745008] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.745305] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.745696] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.745897] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[40.746074] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[40.746297] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[40.746480] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localizationConfig.cmake\n'}
+[40.746644] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localizationConfig-version.cmake\n'}
+[40.746804] (cooperative_localization) StdoutLine: {'line': b'-- Up-to-date: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization/share/cooperative_localization/package.xml\n'}
+[40.753998] (cooperative_localization) CommandEnded: {'returncode': 0}
+[40.786381] (-) TimerEvent: {}
+[40.890778] (-) TimerEvent: {}
+[40.991648] (-) TimerEvent: {}
+[41.093358] (-) TimerEvent: {}
+[41.120457] (cooperative_localization) JobEnded: {'identifier': 'cooperative_localization', 'rc': 0}
+[41.128645] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+In file included from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/centralized_node.cpp:4:
+/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:4:10: fatal error: Eigen/Dense: No such file or directory
+    4 | #include <Eigen/Dense>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/coop_localization_node.dir/build.make:79: CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/coop_localization_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:149: all] Error 2

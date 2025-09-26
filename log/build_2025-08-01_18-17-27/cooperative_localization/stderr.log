@@ -1,0 +1,18 @@
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:4,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/centralized_node.cpp:4:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+/usr/bin/ld: CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o: in function `CentralizedEkfNode::odomCallback(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)':
+centralized_node.cpp:(.text._ZN18CentralizedEkfNode12odomCallbackESt10shared_ptrIN8nav_msgs3msg9Odometry_ISaIvEEEE[_ZN18CentralizedEkfNode12odomCallbackESt10shared_ptrIN8nav_msgs3msg9Odometry_ISaIvEEEE]+0x13f): undefined reference to `EkfCentralized::predict(OdometryData const&, double)'
+/usr/bin/ld: CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o: in function `CentralizedEkfNode::measurementCallback(std::shared_ptr<cooperative_localization::msg::Measurement_<std::allocator<void> > >)':
+centralized_node.cpp:(.text._ZN18CentralizedEkfNode19measurementCallbackESt10shared_ptrIN24cooperative_localization3msg12Measurement_ISaIvEEEE[_ZN18CentralizedEkfNode19measurementCallbackESt10shared_ptrIN24cooperative_localization3msg12Measurement_ISaIvEEEE]+0xd8): undefined reference to `EkfCentralized::correct(MeasurementData const&)'
+/usr/bin/ld: CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o: in function `std::__detail::_MakeUniq<EkfCentralized>::__single_object std::make_unique<EkfCentralized, int, Eigen::Matrix<double, -1, 1, 0, -1, 1>&>(int&&, Eigen::Matrix<double, -1, 1, 0, -1, 1>&)':
+centralized_node.cpp:(.text._ZSt11make_uniqueI14EkfCentralizedJiRN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEEEENSt8__detail9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueI14EkfCentralizedJiRN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEEEENSt8__detail9_MakeUniqIT_E15__single_objectEDpOT0_]+0x56): undefined reference to `EkfCentralized::EkfCentralized(int, Eigen::Matrix<double, -1, 1, 0, -1, 1> const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/coop_localization_node.dir/build.make:190: coop_localization_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/coop_localization_node.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

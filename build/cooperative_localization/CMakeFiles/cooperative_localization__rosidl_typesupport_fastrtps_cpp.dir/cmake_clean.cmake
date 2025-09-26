@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/dataset_status__type_support.cpp.o"
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/dataset_status__type_support.cpp.o.d"
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/measurement__type_support.cpp.o"
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/measurement__type_support.cpp.o.d"
+  "libcooperative_localization__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcooperative_localization__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dataset_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/dataset_status__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/dds_fastrtps/measurement__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/cooperative_localization/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cooperative_localization__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

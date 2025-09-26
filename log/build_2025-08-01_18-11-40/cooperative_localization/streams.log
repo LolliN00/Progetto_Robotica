@@ -1,0 +1,36 @@
+[0.026s] Invoking command in '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization -DCMAKE_INSTALL_PREFIX=/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization
+[0.657s] -- The C compiler identification is GNU 13.3.0
+[2.579s] -- The CXX compiler identification is GNU 13.3.0
+[4.283s] -- Detecting C compiler ABI info
+[5.295s] -- Detecting C compiler ABI info - done
+[5.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.320s] -- Detecting C compile features
+[5.321s] -- Detecting C compile features - done
+[5.612s] -- Detecting CXX compiler ABI info
+[6.491s] -- Detecting CXX compiler ABI info - done
+[6.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.517s] -- Detecting CXX compile features
+[6.518s] -- Detecting CXX compile features - done
+[6.571s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.856s] -- Found Python3: /home/lorenzo/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[7.191s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[7.724s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.775s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.142s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.154s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[8.638s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.854s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[9.039s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[9.094s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[9.764s] CMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[9.764s]   Packages installing interfaces must include
+[9.765s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[9.765s]   package.xml
+[9.765s] Call Stack (most recent call first):
+[9.765s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[9.765s] 
+[9.765s] 
+[9.765s] -- Configuring incomplete, errors occurred!
+[9.788s] Invoked command in '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization -DCMAKE_INSTALL_PREFIX=/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/install/cooperative_localization

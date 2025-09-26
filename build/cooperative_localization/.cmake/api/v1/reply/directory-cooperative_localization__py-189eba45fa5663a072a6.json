@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cooperative_localization__py",
+		"source" : "build/cooperative_localization/cooperative_localization__py"
+	}
+}

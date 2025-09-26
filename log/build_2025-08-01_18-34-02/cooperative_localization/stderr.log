@@ -1,0 +1,34 @@
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/data_loader.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:4,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/ekf_centralized.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/test_dataset.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h: In constructor ‘EkfCentralized::EkfCentralized(int, const Eigen::VectorXd&)’:
+/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:33:9: warning: ‘EkfCentralized::num_robots_’ will be initialized after [-Wreorder]
+   33 |     int num_robots_;
+      |         ^~~~~~~~~~~
+/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:27:21: warning:   ‘Eigen::VectorXd EkfCentralized::state_’ [-Wreorder]
+   27 |     Eigen::VectorXd state_;
+      |                     ^~~~~~
+/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/ekf_centralized.cpp:5:1: warning:   when initialized here [-Wreorder]
+    5 | EkfCentralized::EkfCentralized(int num_robots, const Eigen::VectorXd& initial_state) :
+      | ^~~~~~~~~~~~~~

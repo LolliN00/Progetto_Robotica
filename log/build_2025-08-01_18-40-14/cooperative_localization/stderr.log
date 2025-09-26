@@ -1,0 +1,32 @@
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/data_loader.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/robot_node.cpp:4:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:4,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/centralized_node.cpp:4:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+/usr/bin/ld: CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o: in function `CentralizedEkfNode::CentralizedEkfNode()':
+centralized_node.cpp:(.text._ZN18CentralizedEkfNodeC2Ev[_ZN18CentralizedEkfNodeC5Ev]+0x8b2): undefined reference to `DataLoader::loadLandmarkGroundtruth(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: centralized_node.cpp:(.text._ZN18CentralizedEkfNodeC2Ev[_ZN18CentralizedEkfNodeC5Ev]+0x8f2): undefined reference to `DataLoader::getLandmarks() const'
+/usr/bin/ld: centralized_node.cpp:(.text._ZN18CentralizedEkfNodeC2Ev[_ZN18CentralizedEkfNodeC5Ev]+0xa53): undefined reference to `DataLoader::getLandmarks() const'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/coop_localization_node.dir/build.make:206: coop_localization_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:632: CMakeFiles/coop_localization_node.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

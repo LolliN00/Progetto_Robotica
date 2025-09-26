@@ -1,0 +1,157 @@
+[0.036s] Invoking command in '/home/lorenzo/robotica_ws/build/cooperative_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lorenzo/robotica_ws/build/cooperative_localization -- -j12 -l12
+[0.268s] [  1%] Built target cooperative_localization__rosidl_generator_type_description
+[0.302s] [  1%] Built target ament_cmake_python_copy_cooperative_localization
+[0.339s] [  3%] Built target cooperative_localization__cpp
+[0.360s] [ 13%] Built target cooperative_localization__rosidl_generator_c
+[0.429s] [ 23%] Built target evaluate_accuracy
+[0.435s] [ 31%] Built target test_dataset
+[0.440s] [ 37%] Built target cooperative_localization__rosidl_typesupport_introspection_c
+[0.441s] [ 43%] Built target cooperative_localization__rosidl_typesupport_c
+[0.443s] [ 49%] Built target cooperative_localization__rosidl_typesupport_fastrtps_c
+[0.445s] [ 54%] Built target cooperative_localization__rosidl_typesupport_cpp
+[0.447s] [ 60%] Built target cooperative_localization__rosidl_typesupport_introspection_cpp
+[0.450s] [ 66%] Built target cooperative_localization__rosidl_typesupport_fastrtps_cpp
+[0.500s] [ 66%] Built target cooperative_localization
+[0.552s] [ 72%] Built target robot_node
+[0.552s] [ 74%] Built target cooperative_localization__py
+[0.565s] [ 84%] Built target coop_localization_node
+[0.620s] [ 88%] Built target cooperative_localization__rosidl_generator_py
+[0.675s] [ 96%] Built target cooperative_localization_s__rosidl_typesupport_introspection_c
+[0.675s] [ 96%] Built target cooperative_localization_s__rosidl_typesupport_fastrtps_c
+[0.679s] [100%] Built target cooperative_localization_s__rosidl_typesupport_c
+[1.034s] running egg_info
+[1.062s] writing cooperative_localization.egg-info/PKG-INFO
+[1.063s] writing dependency_links to cooperative_localization.egg-info/dependency_links.txt
+[1.064s] writing top-level names to cooperative_localization.egg-info/top_level.txt
+[1.148s] reading manifest file 'cooperative_localization.egg-info/SOURCES.txt'
+[1.149s] writing manifest file 'cooperative_localization.egg-info/SOURCES.txt'
+[1.218s] [100%] Built target ament_cmake_python_build_cooperative_localization_egg
+[1.244s] Invoked command in '/home/lorenzo/robotica_ws/build/cooperative_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lorenzo/robotica_ws/build/cooperative_localization -- -j12 -l12
+[1.267s] Invoking command in '/home/lorenzo/robotica_ws/build/cooperative_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lorenzo/robotica_ws/build/cooperative_localization
+[1.287s] -- Install configuration: ""
+[1.287s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/ament_index/resource_index/rosidl_interfaces/cooperative_localization
+[1.288s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/msg/Measurement.json
+[1.289s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization
+[1.289s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg
+[1.290s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail
+[1.291s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__functions.c
+[1.292s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__description.c
+[1.292s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__struct.h
+[1.292s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__functions.h
+[1.293s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.c
+[1.293s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.h
+[1.294s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/measurement.h
+[1.294s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_generator_c__visibility_control.h
+[1.295s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/library_path.sh
+[1.296s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/library_path.dsv
+[1.296s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_generator_c.so
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_fastrtps_c.h
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_fastrtps_c.so
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization
+[1.297s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.hpp
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__struct.hpp
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__traits.hpp
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__builder.hpp
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/measurement.hpp
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.298s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/dds_fastrtps
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_fastrtps_cpp.so
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg
+[1.299s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail
+[1.300s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_introspection_c.h
+[1.300s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.c
+[1.300s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.300s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_introspection_c.so
+[1.300s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_c.so
+[1.300s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__type_support.cpp
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/include/cooperative_localization/cooperative_localization/msg/detail/measurement__rosidl_typesupport_introspection_cpp.hpp
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_introspection_cpp.so
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_typesupport_cpp.so
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/pythonpath.sh
+[1.301s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/pythonpath.dsv
+[1.302s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info
+[1.302s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/dependency_links.txt
+[1.302s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/PKG-INFO
+[1.302s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/SOURCES.txt
+[1.302s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization-1.0.0-py3.12.egg-info/top_level.txt
+[1.302s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization
+[1.302s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_introspection_c.so
+[1.302s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/__init__.py
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_c.c
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_introspection_c.c
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg/__init__.py
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg/_measurement.py
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg/_measurement_s.c
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_fastrtps_c.so
+[1.303s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/_cooperative_localization_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.304s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_c.so
+[1.358s] Listing '/home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization'...
+[1.358s] Listing '/home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/msg'...
+[1.368s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_fastrtps_c.so
+[1.368s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_introspection_c.so
+[1.369s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/python3.12/site-packages/cooperative_localization/cooperative_localization_s__rosidl_typesupport_c.so
+[1.369s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/libcooperative_localization__rosidl_generator_py.so
+[1.370s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/msg/Measurement.idl
+[1.370s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/msg/Measurement.msg
+[1.371s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/cooperative_localization/coop_localization_node
+[1.372s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/cooperative_localization/robot_node
+[1.372s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/cooperative_localization/test_dataset
+[1.373s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/lib/cooperative_localization/evaluate_accuracy
+[1.373s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/launch
+[1.374s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/launch/cooperative_localization_launch.py
+[1.375s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/ament_index/resource_index/package_run_dependencies/cooperative_localization
+[1.375s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/ament_index/resource_index/parent_prefix_path/cooperative_localization
+[1.375s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/ament_prefix_path.sh
+[1.376s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/ament_prefix_path.dsv
+[1.377s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/path.sh
+[1.377s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/environment/path.dsv
+[1.378s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/local_setup.bash
+[1.378s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/local_setup.sh
+[1.378s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/local_setup.zsh
+[1.378s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/local_setup.dsv
+[1.378s] -- Installing: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/package.dsv
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/ament_index/resource_index/packages/cooperative_localization
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_cExport.cmake
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_cExport-noconfig.cmake
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cExport.cmake
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_cppExport.cmake
+[1.379s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cExport.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cExport.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cppExport.cmake
+[1.380s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cppExport.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localization__rosidl_typesupport_cppExport-noconfig.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_pyExport.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/export_cooperative_localization__rosidl_generator_pyExport-noconfig.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/rosidl_cmake-extras.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.381s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[1.382s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/ament_cmake_export_targets-extras.cmake
+[1.382s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.383s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.383s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localizationConfig.cmake
+[1.383s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/cmake/cooperative_localizationConfig-version.cmake
+[1.384s] -- Up-to-date: /home/lorenzo/robotica_ws/install/cooperative_localization/share/cooperative_localization/package.xml
+[1.386s] Invoked command in '/home/lorenzo/robotica_ws/build/cooperative_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lorenzo/robotica_ws/build/cooperative_localization

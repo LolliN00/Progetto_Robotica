@@ -1,0 +1,4 @@
+source;share/cooperative_localization/local_setup.bash
+source;share/cooperative_localization/local_setup.dsv
+source;share/cooperative_localization/local_setup.sh
+source;share/cooperative_localization/local_setup.zsh

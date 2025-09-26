@@ -1,0 +1,32 @@
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/groundtruth_loader.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/groundtruth_loader.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/data_loader.h:12,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/evaluate_accuracy.cpp:1:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^
+In file included from /usr/include/eigen3/Eigen/Core:199,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include/ekf_centralized.h:4,
+                 from /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/centralized_node.cpp:4:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h: In function ‘Eigen::internal::Packet8bf Eigen::internal::F32ToBf16(const Packet8f&)’:
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:1275:13: warning: unused variable ‘r’ [-Wunused-variable]
+ 1275 |   Packet8bf r;
+      |             ^

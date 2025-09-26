@@ -1,0 +1,96 @@
+[0.030s] Invoking command in '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization -- -j12 -l12
+[0.046s] Change Dir: '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[0.046s] 
+[0.046s] Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j12 -l12
+[0.069s] /usr/bin/cmake -S/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization -B/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization --check-build-system CMakeFiles/Makefile.cmake 0
+[0.094s] Re-run cmake file: Makefile older than: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/CMakeLists.txt
+[0.111s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.568s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.055s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.077s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.286s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.289s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.745s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.890s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.049s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.068s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.133s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.678s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.932s] -- Found PythonExtra: /home/lorenzo/miniconda3/bin/python3  
+[7.438s] -- Found Python3: /home/lorenzo/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.799s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.030s] -- Configuring done (7.9s)
+[8.254s] -- Generating done (0.2s)
+[8.306s] -- Build files have been written to: /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization
+[8.329s] /usr/bin/cmake -E cmake_progress_start /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization//CMakeFiles/progress.marks
+[8.350s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[8.355s] gmake[1]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.356s] /usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/depend
+[8.356s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/build.make CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/depend
+[8.356s] /usr/bin/gmake  -f CMakeFiles/coop_localization_node.dir/build.make CMakeFiles/coop_localization_node.dir/depend
+[8.358s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.358s] cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/DependInfo.cmake "--color="
+[8.359s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.359s] cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/DependInfo.cmake "--color="
+[8.360s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.360s] cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/coop_localization_node.dir/DependInfo.cmake "--color="
+[8.381s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.382s] /usr/bin/gmake  -f CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build.make CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build
+[8.383s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.383s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.383s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/build.make CMakeFiles/ament_cmake_python_copy_cooperative_localization.dir/build
+[8.385s] /usr/bin/gmake  -f CMakeFiles/coop_localization_node.dir/build.make CMakeFiles/coop_localization_node.dir/build
+[8.385s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.386s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.386s] /usr/bin/cmake -E copy_directory /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/rosidl_generator_py/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/ament_cmake_python/cooperative_localization/cooperative_localization
+[8.387s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.407s] [  5%] Generating type hashes for ROS interfaces
+[8.409s] [  5%] Building CXX object CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o
+[8.410s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.410s] /home/lorenzo/miniconda3/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/rosidl_generator_type_description__arguments.json
+[8.411s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DROS_PACKAGE_NAME=\"cooperative_localization\" -I/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/include -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/nav_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/std_msgs -std=gnu++17 -Wall -Wextra -Wpedantic -march=native -MD -MT CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o -MF CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o.d -o CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o -c /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/centralized_node.cpp
+[8.434s] [  5%] Built target ament_cmake_python_copy_cooperative_localization
+[8.437s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/build.make CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/depend
+[8.440s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.441s] cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/DependInfo.cmake "--color="
+[8.468s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.468s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/build.make CMakeFiles/ament_cmake_python_build_cooperative_localization_egg.dir/build
+[8.471s] gmake[2]: Entering directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.471s] cd /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization/ament_cmake_python/cooperative_localization && /home/lorenzo/miniconda3/bin/python3 setup.py egg_info
+[8.744s] Traceback (most recent call last):
+[8.744s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 21, in <module>
+[8.745s]     from rosidl_generator_type_description import generate_type_hash
+[8.745s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 24, in <module>
+[8.746s]     from rosidl_parser.parser import parse_idl_file
+[8.746s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[8.746s]     from lark import Lark
+[8.747s] ModuleNotFoundError: No module named 'lark'
+[8.778s] gmake[2]: *** [CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/build.make:78: rosidl_generator_type_description/cooperative_localization/msg/Measurement.json] Error 1
+[8.779s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[8.779s] gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/cooperative_localization__rosidl_generator_type_description.dir/all] Error 2
+[8.780s] gmake[1]: *** Waiting for unfinished jobs....
+[9.749s] running egg_info
+[9.751s] creating cooperative_localization.egg-info
+[9.762s] /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/src/centralized_node.cpp:3:10: fatal error: cooperative_localization/msg/measurement.hpp: No such file or directory
+[9.763s]     3 | #include "cooperative_localization/msg/measurement.hpp"
+[9.763s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[9.763s] compilation terminated.
+[9.774s] gmake[2]: *** [CMakeFiles/coop_localization_node.dir/build.make:79: CMakeFiles/coop_localization_node.dir/src/centralized_node.cpp.o] Error 1
+[9.775s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[9.775s] gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/coop_localization_node.dir/all] Error 2
+[9.785s] writing cooperative_localization.egg-info/PKG-INFO
+[9.787s] writing dependency_links to cooperative_localization.egg-info/dependency_links.txt
+[9.788s] writing top-level names to cooperative_localization.egg-info/top_level.txt
+[9.789s] writing manifest file 'cooperative_localization.egg-info/SOURCES.txt'
+[9.893s] reading manifest file 'cooperative_localization.egg-info/SOURCES.txt'
+[9.894s] writing manifest file 'cooperative_localization.egg-info/SOURCES.txt'
+[9.972s] gmake[2]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[9.996s] [  5%] Built target ament_cmake_python_build_cooperative_localization_egg
+[9.998s] gmake[1]: Leaving directory '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization'
+[9.999s] gmake: *** [Makefile:149: all] Error 2
+[10.003s] 
+[10.010s] Invoked command in '/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization -- -j12 -l12

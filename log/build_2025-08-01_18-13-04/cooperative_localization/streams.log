@@ -1,0 +1,23 @@
+[0.033s] Invoking command in '/home/lorenzo/robotica_ws/build/cooperative_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization -DCMAKE_INSTALL_PREFIX=/home/lorenzo/robotica_ws/install/cooperative_localization
+[0.069s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.536s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.976s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.996s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.197s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.615s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.756s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.900s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.918s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.583s] CMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[2.583s]   Packages installing interfaces must include
+[2.584s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.584s]   package.xml
+[2.584s] Call Stack (most recent call first):
+[2.584s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[2.585s] 
+[2.585s] 
+[2.585s] -- Configuring incomplete, errors occurred!
+[2.600s] Invoked command in '/home/lorenzo/robotica_ws/build/cooperative_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization -DCMAKE_INSTALL_PREFIX=/home/lorenzo/robotica_ws/install/cooperative_localization

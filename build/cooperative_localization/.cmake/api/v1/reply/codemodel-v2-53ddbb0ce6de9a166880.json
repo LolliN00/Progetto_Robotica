@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ddb78b29c8eaafb870c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "cooperative_localization__py",
+					"jsonFile" : "directory-cooperative_localization__py-189eba45fa5663a072a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/cooperative_localization/cooperative_localization__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cooperative_localization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cooperative_localization_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cooperative_localization_egg-8b7ded411f6eca0a96d4.json",
+					"name" : "ament_cmake_python_build_cooperative_localization_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cooperative_localization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cooperative_localization-ee1798b97e66325ec5ac.json",
+					"name" : "ament_cmake_python_copy_cooperative_localization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coop_localization_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coop_localization_node-d7b20322fb4cdb032943.json",
+					"name" : "coop_localization_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization-18f6ac5cc60056996a99.json",
+					"name" : "cooperative_localization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__cpp-dbb7ae0c987767f3ca26.json",
+					"name" : "cooperative_localization__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cooperative_localization__py::@a989a3592a6ab0844c04",
+					"jsonFile" : "target-cooperative_localization__py-5b6af4f13281057e0278.json",
+					"name" : "cooperative_localization__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_generator_c-0be4f86dd1eb8a15d25c.json",
+					"name" : "cooperative_localization__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_generator_py-6ba767825df79d00316c.json",
+					"name" : "cooperative_localization__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_generator_type_description-4a6e6ac9470cb1d1b6b4.json",
+					"name" : "cooperative_localization__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_typesupport_c-fed382bb789ea62fe350.json",
+					"name" : "cooperative_localization__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_typesupport_cpp-7c0e4e5a61eb01bf023c.json",
+					"name" : "cooperative_localization__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_typesupport_fastrtps_c-be91fdd8a7df9b912077.json",
+					"name" : "cooperative_localization__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_typesupport_fastrtps_cpp-2a3bc9d361858be7792c.json",
+					"name" : "cooperative_localization__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_typesupport_introspection_c-b7423b16e5fceb9b0493.json",
+					"name" : "cooperative_localization__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization__rosidl_typesupport_introspection_cpp-08d08ff575c6122addd0.json",
+					"name" : "cooperative_localization__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization_s__rosidl_typesupport_c-30880800ce9bc8ac4e1a.json",
+					"name" : "cooperative_localization_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization_s__rosidl_typesupport_fastrtps_c-fd0cae999af4c98cc465.json",
+					"name" : "cooperative_localization_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization_s__rosidl_typesupport_introspection_c-a38df3702d4954914e91.json",
+					"name" : "cooperative_localization_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cooperative_localization_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cooperative_localization_uninstall-81356bad74e6fec01bbe.json",
+					"name" : "cooperative_localization_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "evaluate_accuracy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-evaluate_accuracy-02ac0909d4781fc0a71e.json",
+					"name" : "evaluate_accuracy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_node-148dc6823de0b33a982c.json",
+					"name" : "robot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dataset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dataset-327e8b5098ef64ae9b9a.json",
+					"name" : "test_dataset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f21b98e63d8e4d93da3d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization/build/cooperative_localization",
+		"source" : "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

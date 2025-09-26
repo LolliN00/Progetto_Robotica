@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/dataset_status__type_support.c.o"
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/dataset_status__type_support.c.o.d"
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/measurement__type_support.c.o"
+  "CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/measurement__type_support.c.o.d"
+  "libcooperative_localization__rosidl_typesupport_introspection_c.pdb"
+  "libcooperative_localization__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/dataset_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/dataset_status__type_support.c"
+  "rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/measurement__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/cooperative_localization/msg/detail/measurement__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/cooperative_localization__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

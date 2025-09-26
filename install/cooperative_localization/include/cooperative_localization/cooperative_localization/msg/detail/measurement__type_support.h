@@ -1,0 +1,36 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from cooperative_localization:msg/Measurement.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "cooperative_localization/msg/measurement.h"
+
+
+#ifndef COOPERATIVE_LOCALIZATION__MSG__DETAIL__MEASUREMENT__TYPE_SUPPORT_H_
+#define COOPERATIVE_LOCALIZATION__MSG__DETAIL__MEASUREMENT__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "cooperative_localization/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_cooperative_localization
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  cooperative_localization,
+  msg,
+  Measurement
+)(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // COOPERATIVE_LOCALIZATION__MSG__DETAIL__MEASUREMENT__TYPE_SUPPORT_H_

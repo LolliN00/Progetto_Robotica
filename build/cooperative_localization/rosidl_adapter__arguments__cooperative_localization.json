@@ -1,0 +1,7 @@
+{
+  "package_name": "cooperative_localization",
+  "non_idl_tuples": [
+    "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization:msg/Measurement.msg",
+    "/home/lorenzo/robotica_ws/src/lorenzo.nobili/cooperative_localization:msg/DatasetStatus.msg"
+  ]
+}

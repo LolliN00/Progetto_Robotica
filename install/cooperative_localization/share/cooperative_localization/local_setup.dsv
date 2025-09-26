@@ -1,0 +1,4 @@
+source;share/cooperative_localization/environment/ament_prefix_path.sh
+source;share/cooperative_localization/environment/library_path.sh
+source;share/cooperative_localization/environment/path.sh
+source;share/cooperative_localization/environment/pythonpath.sh

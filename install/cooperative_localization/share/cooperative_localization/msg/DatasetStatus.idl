@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cooperative_localization/msg/DatasetStatus.msg
+// generated code does not contain a copyright notice
+
+
+module cooperative_localization {
+  module msg {
+    struct DatasetStatus {
+      int32 robot_id;
+
+      boolean finished;
+    };
+  };
+};
